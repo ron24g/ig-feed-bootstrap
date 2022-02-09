@@ -25,7 +25,7 @@
         
         <!-- Button trigger modal -->
 <div class="d-flex justify-content-end">       
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<button type="button" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#exampleModal">
     create a new post
   </button>
   <!-- Modal -->
@@ -41,14 +41,14 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-success">Save changes</button>
         </div>
       </div>
     </div>
   </div>
   <div class="dropdown">
     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-      Dropdown button
+      <i class="bi bi-gear-fill"></i>
     </button>
     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
       <li><a class="dropdown-item" href="#">Action</a></li>
@@ -59,7 +59,7 @@
 </div>
 </div>
 </nav>
-<ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
+<ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
   <li class="nav-item" role="presentation">
     <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
   </li>
@@ -129,7 +129,8 @@
     </div>
   </div>
   
-  <div class="tab-pane fade " id="profile" role="tabpanel" aria-labelledby="profile-tab">
+  <div class="tab-pane fade d-flex flex-column align-items-center" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+    
     <div class="card" style="width: 18rem;">
       <ul class="list-group list-group-flush">
         <li class="list-group-item">An item</li>
