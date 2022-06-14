@@ -31,17 +31,15 @@
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
-  margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
+
 .tab-content > .active {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #dee2e6;
 }
-div.cointainer.grid-container {
-  margin: 0%;
-}
+
 .navbar-light .navbar-brand {
     color: #9797aca6;
 }
@@ -56,5 +54,10 @@ div.cointainer.grid-container {
     white-space: nowrap;
 }
 .card-header{
-    display:flex
+    display:flex;
+    justify-content: space-between;
+}
+.card-footer{
+  display:flex;
+  justify-content: space-between;
 }
